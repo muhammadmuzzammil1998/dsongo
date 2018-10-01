@@ -6,7 +6,7 @@
 
 ## Index
 
-- [Install dson.go package](#installing-dsongo-package)
+- [Install dson.go](#installing-dsongo-package)
 - [Documentation](#documentation)
 - [Syntax](#syntax)
 - [Examples](#examples)
@@ -150,20 +150,20 @@ func main() {
 
 ```go
 func main() {
-    type ColorGroup struct {
-        ID     int
-        Name   string
-        Colors []string
-    }
-    RedGroup := ColorGroup{
-        ID:     1,
-        Name:   "Reds",
-        Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
-    }
-    r, err := dson.Marshal(RedGroup)
-    if err == nil && dson.Valid(r) {
-        fmt.Println(r) // such "ID" is 1! "Name" is "Reds". "Colors" is so "Crimson" and "Red" and "Ruby" also "Maroon" many wow
-    }
+    type ColorGroup struct {
+        ID     int
+        Name   string
+        Colors []string
+    }
+    RedGroup := ColorGroup{
+        ID:     1,
+        Name:   "Reds",
+        Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
+    }
+    r, err := dson.Marshal(RedGroup)
+    if err == nil && dson.Valid(r) {
+        fmt.Println(r) // such "ID" is 1! "Name" is "Reds". "Colors" is so "Crimson" and "Red" and "Ruby" also "Maroon" many wow
+    }
 }
 ```
 
