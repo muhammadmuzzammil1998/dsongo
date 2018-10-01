@@ -21,13 +21,11 @@ func reset() {
 	number = ""
 }
 
-func addSeparator(currentChar string) string {
+func getSeparator() string {
 	if array {
-		currentChar = getRandom(" and", " also")
-	} else {
-		currentChar = getRandom(".", ",", "!", "?")
+		return getRandom(" and", " also")
 	}
-	return currentChar + " "
+	return getRandom(".", ",", "!", "?")
 }
 
 func addQuote(currentChar string, isDSON bool) {
@@ -57,7 +55,7 @@ func translate(data []rune, keywords map[string]string, isDSON bool) string {
 	for i = 0; i < len(data); i++ {
 		currentChar := string(data[i])
 		if currentChar == "," && !isDSON {
-			output = trimSpace(output) + addSeparator(currentChar)
+			output = trimSpace(output) + getSeparator() + " "
 			continue
 		}
 		if quote {
@@ -69,8 +67,7 @@ func translate(data []rune, keywords map[string]string, isDSON bool) string {
 			current += currentChar
 			continue
 		}
-		if currentChar == "\"" {
-			quote = true
+		if quote = currentChar == "\""; quote {
 			current = ""
 			continue
 		}
