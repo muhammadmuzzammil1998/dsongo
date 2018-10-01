@@ -4,6 +4,13 @@
 
 **dson.go** provides encoding, decoding, marshaling, unmarshaling, and verification of the DSON (Doge Serialized Object Notation) as defined [here](https://dogeon.xyz/).
 
+## Index
+
+- [Install dson.go package](#installing-dsongo-package)
+- [Documentation](#documentation)
+- [Syntax](#syntax)
+- [Examples](#examples)
+
 ## Installing dson.go package
 
 ```sh
