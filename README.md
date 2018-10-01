@@ -139,7 +139,7 @@ func main() {
 }
 ```
 
-### Marshalling DSON
+### Marshaling DSON
 
 ```go
 func main() {
@@ -160,7 +160,7 @@ func main() {
 }
 ```
 
-### Unmarshalling DSON
+### Unmarshaling DSON
 
 ```go
 func main() {
