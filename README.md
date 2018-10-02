@@ -14,7 +14,7 @@
 ## Installing dson.go package
 
 ```sh
-go get github.com/muhammadmuzzammil1998/dson.go
+go get muzzammil.xyz/dsongo
 ```
 
 ## Documentation
@@ -112,7 +112,7 @@ is equivalent to this in JSON:
 import (
     "fmt"
 
-    "github.com/muhammadmuzzammil1998/dson.go"
+    "muzzammil.xyz/dsongo"
 )
 ```
 
