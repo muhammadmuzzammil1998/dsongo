@@ -20,7 +20,7 @@ go get muzzammil.xyz/dsongo
 ## Documentation
 
 - [DSON standard](https://dogeon.xyz/)
-- [GoDoc for dson.go](https://godoc.org/muzzammil.xyz/dson.go)
+- [GoDoc for dson.go](https://godoc.org/muzzammil.xyz/dsongo)
 
 ## Syntax
 
