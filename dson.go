@@ -7,7 +7,7 @@
 // Version 1.0.0
 //
 // MIT License;
-// https://github.com/muhammadmuzzammil1998/dson.go/LICENSE
+// https://github.com/muhammadmuzzammil1998/dsongo/blob/master/LICENSE
 //
 // (c) 2018 Muhammad Muzzammil <email@muzzammil.xyz>
 package dson
